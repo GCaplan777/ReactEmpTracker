@@ -1,91 +1,81 @@
 [{
     "id": 1,
-    "firstName": "Carl",
-    "lastName": "Carlson",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/c/c6/Carl_Carlson_-_shading.png/revision/latest?cb=20180312061955",
+    "name": "Carl Carlson",
     "email": "carl.carlson@sringnuke.com",
-    "phone": "212-234-1324",
-    "occupation": "Safety operations supervisor"
+    "role": "Safety operations supervisor",
+    "phone": "212-234-1324"
   },
   {
     "id": 2,
-    "firstName": "Lenny",
-    "lastName": "Leonard",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/a/ae/Lenny_Leonard.png/revision/latest?cb=20180311092231",
+    "name": "Lenny Leonard",
     "email": "leonard.leonard@sringnuke.com",
-    "phone": "212-234-1325",
-    "occupation": "Technical Supervisor"
+    "role": "Technical Supervisor",
+    "phone": "212-234-1325"
   },
   {
     "id": 3,
-    "firstName": "Homer",
-    "lastName": "Simpson",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20140126234206",
+    "name": "Homer Simpson",
     "email": "homer.j.simpson@sringnuke.com",
+    "role": "Nuclear Safety Inspector",
     "phone": "212-234-1325",
-    "occupation": "Nuclear Safety Inspector"
   },
   {
     "id": 4,
-    "firstName": "Waylon",
-    "lastName": "Smithers, Jr.",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/8/83/Waylon_Smithers.png/revision/latest/scale-to-width-down/271?cb=20100612160358",
+    "name": "Waylon Smithers, Jr.",
     "email": "waylon.smithers@sringnuke.com",
-    "phone": "212-235-1324",
-    "occupation": "Assistant to Mr. Burns"
+    "role": "Assistant to Mr. Burns",
+    "phone": "212-235-1324"
   },
   {
     "id": 5,
-    "firstName": "Pops",
-    "lastName": "Freshenmeyer",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/f/fc/Popsfresh.jpg/revision/latest?cb=20191110222513",
+    "name": "Pops Freshenmeyer",
     "email": "pops.freshenmeyer@sringnuke.com",
-    "phone": "212-234-1326",
-    "occupation": "Worker"
+    "role": "Worker",
+    "phone": "212-234-1326"
   },
   {
     "id": 6,
-    "firstName": "Al",
-    "lastName": "Simmons",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/1/18/Al_Simmons.png/revision/latest?cb=20180305210115",
+    "name": "Al Simmons",
     "email": "al.simmons@sringnuke.com",
-    "phone": "212-235-1328",
-    "occupation": "Executive"
+    "role": "Executive",
+    "phone": "212-235-1328"
   },
   {
     "id": 7,
-    "firstName": "Inanimate",
-    "lastName": "Carbon Rod",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/8/8f/Carbonrod.png/revision/latest/scale-to-width-down/350?cb=20100921010405",
+    "name": "Inanimate Carbon Rod",
     "email": "inanimate.carbonrod@sringnuke.com",
-    "phone": "212-234-1327",
-    "dob": "Worker of the Week"
+    "role": "Worker of the Week",
+    "phone": "212-234-1327"
   },
   {
     "id": 8,
-    "firstName": "Joey",
-    "lastName": "Crusher",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/8/83/Joey_crusher.png/revision/latest/scale-to-width-down/340?cb=20111109021306",
+    "name": "Joey Crusher",
     "email": "joseph.crusher@sringnuke.com",
+    "role": "Hired Goon",
     "phone": "212-234-1324",
-    "dob": "Hired Goon"
   },
   {
     "id": 9,
-    "firstName": "Eugene",
-    "lastName": "Fisk",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/03/Eugene_fisk.png/revision/latest/scale-to-width-down/350?cb=20180305205338",
+    "name": "Eugene Fisk",
     "email": "eugene.fisk@sringnuke.com",
-    "phone": "212-235-1326",
-    "dob": "Supervisor "
+    "dob": "Supervisor ",
+    "role": "212-235-1326"
   },
   {
     "id": 10,
-    "firstName": "Mike",
-    "lastName": "Scioscia",
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/8/83/Mike_Scioscia_real_life.jpg/revision/latest/scale-to-width-down/322?cb=20100919135041",
+    "name": "Mike Scioscia",
     "email": "mike.scioscia.com",
-    "phone": "212-234-1329",
-    "dob": "forklift operator"
+    "dob": "forklift operator",
+    "role": "212-234-1329"
   }
 ]
