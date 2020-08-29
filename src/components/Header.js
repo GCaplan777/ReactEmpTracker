@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
   return (
     <div className="jumbotron">
       <h1 className="display-4">Springfield Nuclear Power Plant</h1>

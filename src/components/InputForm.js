@@ -1,6 +1,6 @@
 import React from "react";
 
-function InputForm() {
+function InputForm(props) {
   return (
     <form>
       <div className="form-group">
