@@ -4,12 +4,12 @@ function InputForm(props) {
   return (
     <form>
       <div className="form-group">
-        <label for="formGroupExampleInput2">Another label</label>
+        <label for="formGroupExampleInput2">Search Employees</label>
         <input
           type="text"
           className="form-control"
           id="formGroupExampleInput2"
-          placeholder="Another input"
+          placeholder="Search"
         />
       </div>
     </form>
