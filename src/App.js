@@ -12,6 +12,9 @@ import { findRenderedComponentWithType } from "react-dom/test-utils";
 // i want a search bar so i can search and sort by name
 // i need bootstrap
 // i need a json file as my list
+// Sort the table by at least one category
+
+// Filter the users by at least one property.
 
 class App extends Component {
   state = { employees };
