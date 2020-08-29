@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
-import InputForm from "./components/InputForm";
+// import InputForm from "./components/InputForm";
 import TableHead from "./components/TableHead";
 import TableBody from "./components/TableBody";
 import "./App.css";
 import employees from "./employees.json";
-import { findRenderedComponentWithType } from "react-dom/test-utils";
+// import { findRenderedComponentWithType } from "react-dom/test-utils";
 
 // i want a list of employees with first name, last name, email, phone number, image, date of birth
 // i want it listed in a table that I can sort
@@ -19,11 +19,28 @@ import { findRenderedComponentWithType } from "react-dom/test-utils";
 class App extends Component {
   state = { employees };
 
+  // receive data from search to setState each letter
+  // render each letter
+
+  handleInputChange = (event) => {
+    console.log(event.target.value);
+  };
+
   render() {
     return (
       <div>
         <Header />
-        <InputForm />
+        <form>
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control"
+              // id="formGroupExampleInput2"
+              placeholder="Search"
+              onChange={this.handleInputChange}
+            />
+          </div>
+        </form>
         <table className="table table-hover">
           <TableHead />
           {this.state.employees.map((employee) => (
