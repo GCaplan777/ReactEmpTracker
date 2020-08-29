@@ -20,7 +20,7 @@
     "name": "Homer Simpson",
     "email": "homer.j.simpson@sringnuke.com",
     "role": "Nuclear Safety Inspector",
-    "phone": "212-234-1325",
+    "phone": "212-234-1335"
   },
   {
     "id": 4,
@@ -60,15 +60,16 @@
     "name": "Joey Crusher",
     "email": "joseph.crusher@sringnuke.com",
     "role": "Hired Goon",
-    "phone": "212-234-1324",
+    "phone": "212-234-1324"
   },
   {
     "id": 9,
     "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/03/Eugene_fisk.png/revision/latest/scale-to-width-down/350?cb=20180305205338",
     "name": "Eugene Fisk",
     "email": "eugene.fisk@sringnuke.com",
-    "dob": "Supervisor ",
-    "role": "212-235-1326"
+    "role": "Supervisor ",
+    "phone": "212-235-1326"
+
   },
   {
     "id": 10,
