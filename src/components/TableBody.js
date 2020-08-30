@@ -4,7 +4,6 @@ function TableBody(props) {
   return (
     <tbody>
       <tr>
-        {/* <th scope="row">1</th> */}
         <td>
           {" "}
           <img alt={props.name} src={props.image} />
