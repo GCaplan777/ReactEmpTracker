@@ -24,7 +24,17 @@ class App extends Component {
 
   handleInputChange = (event) => {
     console.log(event.target.value);
+    console.log(employees);
+    const newEmployees = employees.filter((employee) =>
+      employee.name
+        .toLowerCase()
+        .includes(event.target.value.toLowerCase().trim())
+    );
+    console.log(newEmployees);
+    this.setState({ employees: newEmployees });
   };
+
+  //
 
   render() {
     return (
