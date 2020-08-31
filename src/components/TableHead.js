@@ -2,7 +2,7 @@ import React from "react";
 
 function TableHead(props) {
   return (
-    <thead>
+    <thead className="thead">
       <tr>
         <th scope="col">Image</th>
         <th scope="col" onClick={props.sortNameHandler}>

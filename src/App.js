@@ -29,18 +29,14 @@ class App extends Component {
       const sortDesc = this.state.employees.sort((a, b) =>
         a.name > b.name ? -1 : 1
       );
-      // this.setState({ employees: sortDesc });
       this.setState({ order: "asc" });
-      console.log(this.state.order + ":hey");
+      console.log(this.state.order + ":hi");
     } else if (this.state.order === "asc") {
       const sortAsc = this.state.employees.sort((a, b) =>
         a.name > b.name ? 1 : -1
       );
-      // this.setState({ employees: sortAsc });
       this.setState({ order: "desc" });
     }
-
-    // console.log(sortEmployeeName);
   };
 
   render() {

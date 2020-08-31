@@ -1,3 +1,11 @@
+.tbody {
+  background-color: #dfedf1;
+}
+
+.thead {
+  background-color: #96b2bb;
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +40,14 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: scale-down;
 }
