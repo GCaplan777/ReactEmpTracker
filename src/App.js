@@ -6,7 +6,7 @@ import "./App.css";
 import employees from "./employees.json";
 
 class App extends Component {
-  state = { employees };
+  state = { employees, order: "asc" };
 
   handleInputChange = (event) => {
     console.log(event.target.value);
@@ -22,6 +22,25 @@ class App extends Component {
 
   sortNameHandler = () => {
     console.log("hello");
+    console.log(this.state.order);
+
+    if (this.state.order === "desc") {
+      console.log("in elese if");
+      const sortDesc = this.state.employees.sort((a, b) =>
+        a.name > b.name ? -1 : 1
+      );
+      // this.setState({ employees: sortDesc });
+      this.setState({ order: "asc" });
+      console.log(this.state.order + ":hey");
+    } else if (this.state.order === "asc") {
+      const sortAsc = this.state.employees.sort((a, b) =>
+        a.name > b.name ? 1 : -1
+      );
+      // this.setState({ employees: sortAsc });
+      this.setState({ order: "desc" });
+    }
+
+    // console.log(sortEmployeeName);
   };
 
   render() {
