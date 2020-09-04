@@ -5,7 +5,11 @@ function TableHead(props) {
     <thead className="thead">
       <tr>
         <th scope="col">Image</th>
-        <th scope="col" onClick={props.sortNameHandler}>
+        <th
+          scope="col"
+          onClick={props.sortNameHandler}
+          style={{ textDecorationLine: "underline", fontWeight: "bold" }}
+        >
           Name
         </th>
         <th scope="col">Email</th>
