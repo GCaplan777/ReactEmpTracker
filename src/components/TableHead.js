@@ -8,7 +8,7 @@ function TableHead(props) {
         <th
           scope="col"
           onClick={props.sortNameHandler}
-          style={{ textDecorationLine: "underline", fontWeight: "bold" }}
+          style={{ textDecorationLine: "underline" }}
         >
           Name
         </th>
